@@ -1,11 +1,13 @@
 import logging
 
+from telegram import ParseMode
+
 from hendlers import *
 from telegram.ext import Updater, Filters, \
     CommandHandler, Defaults, \
     CallbackQueryHandler, MessageHandler
 
-TOKEN = ""
+TOKEN = "5547368024:AAHkIDwT2zE41sZvMZsLyZU5BsNuBsovg38"
 
 logging.basicConfig(format="%(asctime)s - %(levelname)s - %(message)s", level=logging.INFO)
 
